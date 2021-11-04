@@ -3,14 +3,14 @@
     background-color: rgb(204, 183, 151);
 
 }
-h1{
+.h1{
     font-family: 'Zen Antique Soft', serif;
     font-size: 3em;
     text-shadow: 2px 2px;
 
 }
 
-h2{
+.h2{
     font-family: 'Zen Antique Soft', serif;
     font-size: 2em;
     text-shadow: 2px 2px;
@@ -38,24 +38,27 @@ img{
 }
 
 .personal-info{
-    background-color: rgb(233, 225, 203);
-    /* width: 200px;
-    height: 200px; */
+    /* background-color: rgb(233, 225, 203); */
+    resize: both;
+    position: relative;
+    font-size:5vw;
 
 }
+
 
 .first-job {
     border-radius: 30px;
     background: url(paper.gif);
     background-position: left top;
     background-repeat: repeat;
+    /* font-size: 5vw; */
     padding: 20px;
-    width: 200px;
+    width: 500px;
     height: 150px;
-    background-color: lightslategrey;
+    background-color: rgb(132, 142, 152);
     margin-left: 5%;
-    resize: horizontal;
-    overflow: auto;
+    /* resize: horizontal;
+    overflow: auto; */
 }
 
 .second-job  {
@@ -64,12 +67,12 @@ img{
     background-position: left top;
     background-repeat: repeat;
     padding: 20px;
-    width: 200px;
+    width: 500px;
     height: 150px;
-    background-color: lightslategrey;
+    background-color: rgb(132, 142, 152);
     margin-left: 30%;
-    resize: horizontal;
-    overflow: auto;
+    /* resize: horizontal; */
+    /* overflow: auto; */
 
 }
 
@@ -79,9 +82,9 @@ img{
     background-position: left top;
     background-repeat: repeat;
     padding: 20px;
-    width: 200px;
+    width: 500px;
     height: 150px;
-    background-color: lightslategrey;
+    background-color: rgb(132, 142, 152);
     margin-left: 55%;
     resize: horizontal;
     overflow: auto;
@@ -91,6 +94,7 @@ img{
     color: rgb(36, 28, 51);
     top: 10%;
     position: relative;
+    resize: both;
     
 }
 
@@ -113,13 +117,13 @@ img{
   }
   
   .flex-item-left {
-    /* background-color: #f1f1f1; */
+    background-color: rgb(233, 225, 203);
     padding: 10px;
     flex: 40%;
   }
   
   .flex-item-right {
-    /* background-color: dodgerblue; */
+    background-color: rgb(233, 225, 203);
     padding: 10px;
     flex: 60%;
   }
@@ -129,3 +133,30 @@ img{
       flex-direction: column;
     }
   }
+
+
+.myButton {
+	box-shadow:inset 0px 25px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:7px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
